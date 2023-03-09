@@ -1,13 +1,13 @@
 public class Main {
     public static void main(String[] args) {
 // Maak enkele spelers
-        Speler speler1 = new Speler("Frodo");
-        Speler speler2 = new Speler("Aragorn");
+        Speler speler1 = new Speler("yoii");
+        Speler speler2 = new Speler("Ace");
 // Maak enkele vijanden
         Vijand vijand1 = new Vijand("Ork", 5);
-        Vijand vijand2 = new Vijand("Sauron", 8);
+        Vijand vijand2 = new Vijand("Wizard", 8);
 // Maak enkele levels
-        Level level1 = new Level("Hobbiton", 1, 10);
+        Level level1 = new Level("Kliklon", 1, 10);
         Level level2 = new Level("Mordor", 2, 15);
 // Maak enkele wapens
         Wapen wapen1 = new Wapen("Zwaard", 8);
